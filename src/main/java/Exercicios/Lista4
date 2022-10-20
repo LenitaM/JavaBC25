@@ -1,0 +1,23 @@
+Exercícios: Herança.
+
+1) Recriar em código a herança da imagem do link:
+https://th.bing.com/th/id/R.6b652e25966c19e5ddd84296979519a4?rik=apClpQcSA9VfSw&riu=http%3a%2f%2fwww.btechsmartclass.com%2fjava%2fjava_images%2fOOP-Concept-Inheritance.png&ehk=68qt%2bbrn9dWz5por9suwsHDf7navpPbmrl1JUxC3CfM%3d&risl=&pid=ImgRaw&r=0
+
+2) Crie um hierarquia de classes:
+
+Classe Funcionario:
+	* Atributos: nome, salario, idade;
+	* Construtores: Cria funcionários com base no nome, salario, idade;
+	* Métodos:
+		- getSalario();
+		- getSalarioAnual();
+		- aumentarSalario(double acrescimo);
+		- reduzirSalario(double reducao);
+
+Classe Gerente -> Funcionario:
+	* Atributos: bonus;
+	* Construtores: Cria Gerente com base no bonus e nos parâmetros do construtor de Funcionario.
+	* Métodos:
+		- @Override getSalario() => calcula o salario com base no bonus
+
+3) Criem a classe Gato com base na classe Pet.

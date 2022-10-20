@@ -35,5 +35,17 @@ public class PessoaTeste {
         System.out.println(imcPessoa4);
 
         pessoa4.comer("Batata");
+
+        /**AULA 18 DE OUT DE 2022
+         *
+         * Exemplo Conhecer Pessoas
+         */
+        Pessoa pedro = new Pessoa ("Pedro", "Campos", 17, 1.70, 60);
+        //new = cria um novo objeto
+        Pessoa leticia = new Pessoa ("Leticia", "Tenório", 25, 1.56, 45);
+
+        pedro.cumprimentar(leticia);
+        pedro.cumprimentar(leticia);
+
     }
 }

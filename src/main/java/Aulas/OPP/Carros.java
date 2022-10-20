@@ -1,6 +1,10 @@
 package Aulas.OPP;
 
+/**
+ * AULA 17 DE OUT DE 2022: CLASSES
+ * */
 public class Carros {
+    //PROPRIEDADES DE UM CARRO
     String modelo;
     String marca;
     int ano;
@@ -24,6 +28,7 @@ public class Carros {
     }
 
     // Abastecer
+    //void =
     void abastecer(double total) { // parâmetros do método
         this.combustivelAtual += total; // this.combustivelAtual = this.combustivelAtual + total;
     }

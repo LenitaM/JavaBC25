@@ -1,0 +1,34 @@
+Exercícios: Abstração, Métodos, Construtores e Atributos.
+
+(feito) 1) Crie uma classe Circulo que possui:
+	 Atributos: raio, cor.
+	Construtores:
+		- Cria circulos com base no parâmetro raio do construtor;
+		- Cria círculos de raio 1;
+	 Métodos:
+		- calcularArea() => deve retornar double (PI * RAIO * RAIO)
+		- calcularCircunferencia => deve retornar double (2 * PI * RAIO)
+		- mudarRaio(double novoRaio) => deve alterar o valor do raio
+
+
+(feito) 2) Crie uma classe Empregado que possui:
+	* Atributos: nome, sobrenome, salario
+	* Construtores:
+		- Cria empregados com base nos parâmetros nome, sobrenome e salario;
+	* Métodos:
+		- calcularSalarioAnual() => deve retornar double
+		- aumentarSalario(double aumento) => aumenta o valor do salário
+		- nomeCompleto() => deve retornar a concatenação do nome e sobrenome
+
+(feito) 3) Crie uma classe Autor que possui:
+	* Atributos: nome, email;
+	* Construtores:
+		- Cria autores com base nos parâmetros nome e email;
+	* Métodos:
+		- alteraNome(String novoNome) => muda o nome atual do autor
+		- alteraEmail(String novoEmail) => muda o email atual do autor
+
+(feito) 4) Crie uma classe Livro que possui:
+	* Atributos: nome, autor, preco;
+	* Construtores:
+		- Cria livros com base nos parâmetros nome, autor(objeto da classe Autor), preco;
